@@ -14,4 +14,4 @@ I would like to add new bookmarks
 ```
 
 # Domain Model Diagram
-![Domain Model](https://github.com/sk52/bookmark-manager/blob/master/img/domain-model.jpg)
+[Domain Model](https://github.com/sk52/bookmark-manager/blob/master/img/domain-model.jpg)
