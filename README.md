@@ -15,3 +15,4 @@ I would like to add new bookmarks
 
 # Domain Model Diagram
 ![Domain Model](img/domain-model.jpg)
+Click link to see what the domain model should look like [domain-model_2](https://github.com/makersacademy/course/blob/master/bookmark_manager/images/bookmark_manager_1.png)
