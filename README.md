@@ -12,3 +12,6 @@ As a user
 So that I don't forget my favourite websites
 I would like to add new bookmarks
 ```
+
+# Domain Model Diagram
+![Domain Model](https://github.com/sk52/bookmark-manager/blob/master/img/domain-model.jpg)
