@@ -1,4 +1,5 @@
 require 'sinatra/base'
+require './lib/bookmark'
 
 class BookmarkManager < Sinatra::Base
   get '/testing' do
@@ -12,6 +13,7 @@ class BookmarkManager < Sinatra::Base
     #         "http://www.google.com"
     #        ]
     #     bookmarks.join
+    p ENV
     @bookmarks = Bookmark.all #moved the code above to lib folder  and gave it a class Bookmark.
     erb :'bookmarks/index' #Displays here
   end
