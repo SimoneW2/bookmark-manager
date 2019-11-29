@@ -19,8 +19,19 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks/new' do
-    erb :"bookmarks/new"
-  end
-  
+  erb :"bookmarks/new"
+end
+
+post '/bookmarks' do
+  #p "Form data submitted to the /bookmarks route!"
+  #p params
+
+  # Bookmark.create(url: params[:url])
+  # redirect '/bookmarks'
+
+  Bookmark.create(url: params['url'])
+  redirect '/bookmarks'
+end
+
   run! if app_file == $0
 end

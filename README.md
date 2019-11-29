@@ -17,8 +17,9 @@ So I can store bookmark data for later retrieval
 I want to add a bookmark to Bookmark Manager
 ```
 
-#User Instruction
+#User Instructions
 ```
+
 1) In the terminal open the psql repl -
 psql postgres
 
@@ -31,10 +32,11 @@ CREATE DATABASE bookmarks;
 4)Connect to the database
 \c bookmarks
 
-5)Create a table in the bookmarks database
+5)Create a table in the bookmarks database. With 2 columns called id and url.
 CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
 
-6)Insert 
+6)Insert a record
+
 
 ```
 # Domain Model Diagram
